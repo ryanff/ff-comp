@@ -1,0 +1,14 @@
+.base {
+    padding: 4px 8px;
+    color: white;
+}
+
+.primary {
+    @extend .base;
+    background-color: blue;
+}
+
+.danger {
+    @extend .base;
+    background-color: red;
+}
