@@ -21,5 +21,5 @@
     "build": "vite build",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "a46b3aab7989a00529d4a4c38f3c2f624b03f606"
+  "gitHead": "eb4922235cba2e5a85c34fc77ac85973ab0a98a8"
 }
