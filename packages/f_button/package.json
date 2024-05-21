@@ -1,5 +1,5 @@
 {
-  "name": "f_button",
+  "name": "@xiaojo/f_button",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "fanjiarong <fjr941011@gmail.com>",
@@ -20,5 +20,6 @@
     "tsc": "tsc",
     "build": "vite build",
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "a46b3aab7989a00529d4a4c38f3c2f624b03f606"
 }
