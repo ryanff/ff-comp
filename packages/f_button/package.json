@@ -14,12 +14,13 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "tsc": "tsc",
     "build": "vite build",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "9c1caab2418e840186c8dbc5f2277ec9a59c787f"
+  "gitHead": "2164c5713904bc329cb33bcbf4f837d9ef874354"
 }
