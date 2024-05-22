@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@xiaojo/f_mix": "workspace:^"
+    "@xiaojo/f_mix": "workspace:*"
   }
 }
