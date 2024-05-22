@@ -23,8 +23,7 @@
     "url": "git+https://github.com/ryanff/ff-comp.git"
   },
   "scripts": {
-    "build:types": "tsc -p tsconfig.json",
-    "build": "vite build && pnpm run build:types",
+    "build": "rm -rf dist && vite build",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

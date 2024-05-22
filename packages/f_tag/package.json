@@ -20,8 +20,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build:types": "tsc -p tsconfig.json",
-    "build": "vite build && pnpm run build:types",
+    "build": "rm -rf dist && vite build",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "gitHead": "adeb3686992cc77cb5bc2f4db8819fd92be534f7"
