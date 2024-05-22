@@ -24,5 +24,5 @@
     "build": "vite build && pnpm run build:types",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "2164c5713904bc329cb33bcbf4f837d9ef874354"
+  "gitHead": "adeb3686992cc77cb5bc2f4db8819fd92be534f7"
 }

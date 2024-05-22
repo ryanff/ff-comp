@@ -15,7 +15,8 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,6 @@
   "dependencies": {
     "@xiaojo/f_button": "^0.0.6",
     "@xiaojo/f_tag": "^0.0.6"
-  }
+  },
+  "gitHead": "adeb3686992cc77cb5bc2f4db8819fd92be534f7"
 }
