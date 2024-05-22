@@ -1,5 +1,6 @@
 import type { App, Plugin } from "vue";
 import button from "./index.vue";
+import { ButtonProps } from "./type";
 
 type SFCWithInstall<T> = T&Plugin
 
@@ -17,6 +18,6 @@ const withInstall = <T>(comp:T) => {
     }
     return comp as SFCWithInstall<T>
 }
-const FButton = withInstall(button)
+const FButton = withInstall<ButtonProps>(button)
 
 export default FButton;
