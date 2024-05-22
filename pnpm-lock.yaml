@@ -46,15 +46,21 @@ importers:
         specifier: ^3.9.1
         version: 3.9.1(@types/node@20.12.12)(typescript@5.4.5)(vite@5.2.11)
 
+  examples:
+    dependencies:
+      '@xiaojo/f_mix':
+        specifier: workspace:^
+        version: link:../packages/f_mix
+
   packages/f_button: {}
 
   packages/f_mix:
     dependencies:
       '@xiaojo/f_button':
-        specifier: ^0.0.7
+        specifier: ^0.0.12
         version: link:../f_button
       '@xiaojo/f_tag':
-        specifier: ^0.0.7
+        specifier: ^0.0.12
         version: link:../f_tag
 
   packages/f_tag: {}

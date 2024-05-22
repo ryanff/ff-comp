@@ -8,7 +8,7 @@
 import { computed } from 'vue';
 
 export interface MyButtonProps {
-  type: 'primary' | 'danger';
+  type: 'primary' | 'danger' | 'default';
 }
 
 const props = withDefaults(defineProps<MyButtonProps>(), {

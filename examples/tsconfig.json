@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "declaration": true,
+      "outDir": "./dist",
+    },
+    "include": [
+      "*.vue",
+      "main.ts",
+      "./shims-vue.d.ts",
+      "./shims-tsx.d.ts"
+    ]
+   }
