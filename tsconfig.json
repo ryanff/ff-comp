@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "esnext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "allowJs": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
+    "esModuleInterop": true, // 支持es6,commonjs模块
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -21,6 +22,8 @@
 
     "declaration": true,
     "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true, // 允许没有导出的模块中导入
+    "forceConsistentCasingInFileNames": true, // 强制区分大小写
     "removeComments": true,
     "noLib": false,
     "emitDecoratorMetadata": true,

@@ -1,0 +1,36 @@
+{
+  "name": "@xiaojo/f_mix",
+  "version": "0.0.5",
+  "description": "> TODO: description",
+  "author": "fanjiarong <fanjiarong@patsnap.com>",
+  "homepage": "https://github.com/ryanff/ff-comp#readme",
+  "license": "ISC",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanff/ff-comp.git"
+  },
+  "scripts": {
+    "build:types": "tsc -p tsconfig.json",
+    "build": "vite build && pnpm run build:types",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanff/ff-comp/issues"
+  },
+  "dependencies": {
+    "@xiaojo/f_button": "^0.0.5",
+    "@xiaojo/f_tag": "^0.0.1"
+  }
+}

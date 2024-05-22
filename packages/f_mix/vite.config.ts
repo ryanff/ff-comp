@@ -27,10 +27,10 @@ export default defineConfig({
   build: {
     lib: {
       entry: {
-        index: resolve(__dirname, 'src/index.tsx'),
+        index: resolve(__dirname, 'src/index.ts'),
       },
       name: 'f_component',
-      formats: ['es'],
+      formats: ['es', 'iife'],
     },
     outDir: `dist/`,
     cssCodeSplit: true,

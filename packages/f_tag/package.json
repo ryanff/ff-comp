@@ -1,6 +1,6 @@
 {
-  "name": "@xiaojo/f_button",
-  "version": "0.0.5",
+  "name": "@xiaojo/f_tag",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "fanjiarong <fjr941011@gmail.com>",
   "homepage": "",
@@ -23,6 +23,5 @@
     "build:types": "tsc -p tsconfig.json",
     "build": "vite build && pnpm run build:types",
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "gitHead": "2164c5713904bc329cb33bcbf4f837d9ef874354"
+  }
 }
