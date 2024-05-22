@@ -12,8 +12,7 @@
     "dist": "dist"
   },
   "files": [
-    "dist",
-    "global.d.ts"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
