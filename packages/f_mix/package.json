@@ -1,6 +1,6 @@
 {
   "name": "@xiaojo/f_mix",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "fanjiarong <fanjiarong@patsnap.com>",
   "homepage": "https://github.com/ryanff/ff-comp#readme",
@@ -30,8 +30,8 @@
     "url": "https://github.com/ryanff/ff-comp/issues"
   },
   "dependencies": {
-    "@xiaojo/f_button": "^0.0.12",
-    "@xiaojo/f_tag": "^0.0.12"
+    "@xiaojo/f_button": "^0.0.13",
+    "@xiaojo/f_tag": "^0.0.13"
   },
   "gitHead": "adeb3686992cc77cb5bc2f4db8819fd92be534f7"
 }
