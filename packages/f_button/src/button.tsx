@@ -13,6 +13,10 @@ export const FButton = defineComponent({
     return {};
   },
   render() {
-    return <button class={$style[this.type]}>{this.$slots.default}</button>;
+    return (
+      <button class={$style[this.type]}>
+        {this.$slots.default ? this.$slots.default() : ""}
+      </button>
+    );
   },
 });
