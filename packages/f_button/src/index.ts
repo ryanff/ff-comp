@@ -1,5 +1,5 @@
 import type { App } from "vue";
-import FButton from "./index.vue";
+import { FButton } from "./button";
 
 FButton.install = (app: App) => {
   app.component("FButton", FButton);

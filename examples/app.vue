@@ -1,12 +1,13 @@
 <template>
     <div>
         启动测试
-        <FButton type='danger'></FButton>
+        <FButton type='danger'>danger</FButton>
+        <FTag text="hahaha"></FTag>
     </div>
 </template>
 
 <script lang="ts" setup>
 
-import {FButton} from '@xiaojo/f_mix'
+import {FButton , FTag} from '@xiaojo/f_mix'
 
 </script>
